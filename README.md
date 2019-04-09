@@ -1,11 +1,10 @@
 # SmartBrain-api - v2
-Final project for Udemy course
+Este proyecto cuenta con los archivos de configuración de docker
 
 1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
-4. You must add your own API key in the `controllers/image.js` file to connect to Clarifai API.
+2. Para iniciarlo: `docker-compose up --build`
+3. Tienes que agregar tu propia llave en `controllers/image.js` para conectarte a Clarifai API.
 
-You can grab Clarifai API key [here](https://www.clarifai.com/)
+Puedes generar tu propia llave de Clarifai [here](https://www.clarifai.com/)
 
-** Make sure you use postgreSQL instead of mySQL for this code base.
+** Para este proyecto necesitas postgreSQL como gestor de bases de datos.
